@@ -1,0 +1,212 @@
+[
+  {
+    "variation": "default-slice",
+    "name": "Default slice",
+    "slice_type": "features",
+    "items": [
+      {
+        "featureIcon": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1601933973783-43cf8a7d4c5f?w=900&h=500&fit=crop"
+        },
+        "featureHeading": "transform wireless relationships",
+        "featureDescription": "seize wireless vortals"
+      },
+      {
+        "featureIcon": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1606248897732-2c5ffe759c04?w=900&h=500&fit=crop"
+        },
+        "featureHeading": "streamline mission-critical e-tailers",
+        "featureDescription": "generate granular portals"
+      },
+      {
+        "featureIcon": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1531771686035-25f47595c87a?w=900&h=500&fit=crop"
+        },
+        "featureHeading": "monetize cross-platform channels",
+        "featureDescription": "recontextualize granular e-business"
+      },
+      {
+        "featureIcon": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1593642633279-1796119d5482?w=900&h=500&fit=crop"
+        },
+        "featureHeading": "transition ubiquitous markets",
+        "featureDescription": "utilize value-added e-services"
+      }
+    ],
+    "primary": {
+      "pretitle": "embrace cross-media action-items",
+      "heading": "implement impactful technologies",
+      "description": "cultivate web-enabled web-readiness"
+    }
+  },
+  {
+    "variation": "gridWithOffsetIcons",
+    "name": "Grid with offset icons",
+    "slice_type": "features",
+    "items": [
+      {
+        "featureIcon": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=900&h=500&fit=crop"
+        },
+        "featureHeading": "synthesize visionary systems",
+        "featureDescription": "grow world-class e-markets"
+      },
+      {
+        "featureIcon": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1589652717521-10c0d092dea9?w=900&h=500&fit=crop"
+        },
+        "featureHeading": "synergize web-enabled supply-chains",
+        "featureDescription": "envisioneer dynamic markets"
+      },
+      {
+        "featureIcon": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1494173853739-c21f58b16055?w=900&h=500&fit=crop"
+        },
+        "featureHeading": "orchestrate holistic applications",
+        "featureDescription": "orchestrate innovative content"
+      }
+    ],
+    "primary": {
+      "pretitle": "deliver plug-and-play markets",
+      "heading": "optimize efficient platforms",
+      "description": "e-enable user-centric experiences"
+    }
+  },
+  {
+    "variation": "alternatingWithTestimonial",
+    "name": "Alternating with testimonial",
+    "slice_type": "features",
+    "items": [
+      {
+        "featureIcon": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1579931794097-0ad001e51edb?w=900&h=500&fit=crop"
+        },
+        "featureHeading": "engineer ubiquitous niches",
+        "featureDescription": "streamline e-business action-items",
+        "featureCTALink": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        },
+        "featureCTAText": "enable innovative web-readiness",
+        "testimonialText": "enhance back-end relationships",
+        "testimonialAuthor": "visualize B2B e-business",
+        "testimonialAuthorImage": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?w=900&h=500&fit=crop"
+        }
+      },
+      {
+        "featureIcon": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1591012911207-0dbac31f37da?w=900&h=500&fit=crop"
+        },
+        "featureHeading": "utilize enterprise mindshare",
+        "featureDescription": "productize 24/365 niches",
+        "featureCTALink": {
+          "link_type": "Web",
+          "url": "http://twitter.com"
+        },
+        "featureCTAText": "embrace e-business convergence",
+        "testimonialText": "transition integrated mindshare",
+        "testimonialAuthor": "streamline bleeding-edge e-tailers",
+        "testimonialAuthorImage": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=900&h=500&fit=crop"
+        }
+      },
+      {
+        "featureIcon": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1607582278038-6bebbd4d7b72?w=900&h=500&fit=crop"
+        },
+        "featureHeading": "matrix user-centric communities",
+        "featureDescription": "architect leading-edge ROI",
+        "featureCTALink": {
+          "link_type": "Web",
+          "url": "http://google.com"
+        },
+        "featureCTAText": "whiteboard leading-edge bandwidth",
+        "testimonialText": "enable granular web services",
+        "testimonialAuthor": "harness dot-com technologies",
+        "testimonialAuthorImage": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1587613865763-4b8b0d19e8ab?w=900&h=500&fit=crop"
+        }
+      }
+    ],
+    "primary": {}
+  }
+]

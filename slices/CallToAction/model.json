@@ -1,0 +1,139 @@
+{
+  "id": "call_to_action",
+  "type": "SharedSlice",
+  "name": "CallToAction",
+  "description": "CallToAction",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "CallToAction",
+      "primary": {
+        "heading": {
+          "config": {
+            "label": "Heading",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "description": {
+          "config": {
+            "label": "Description",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "callToActionLinkText": {
+          "config": {
+            "label": "CTA Text",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "callToActionLink": {
+          "config": {
+            "label": "CTA Link",
+            "select": "document",
+            "customtypes": [
+              "page"
+            ]
+          },
+          "type": "Link"
+        }
+      },
+      "items": {}
+    },
+    {
+      "id": "panelWithScreenshot",
+      "name": "Panel With Screenshot",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "CallToAction",
+      "primary": {
+        "heading": {
+          "config": {
+            "label": "Heading",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "description": {
+          "config": {
+            "label": "Description",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "callToActionLinkText": {
+          "config": {
+            "label": "CTA Text",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "callToActionLink": {
+          "config": {
+            "label": "CTA Link",
+            "select": "document",
+            "customtypes": [
+              "page"
+            ]
+          },
+          "type": "Link"
+        },
+        "screenshot": {
+          "config": {
+            "label": "Screenshot",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        }
+      },
+      "items": {}
+    },
+    {
+      "id": "simpleJustified",
+      "name": "Simple Justified",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "CallToAction",
+      "primary": {
+        "heading": {
+          "config": {
+            "label": "Heading",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "description": {
+          "config": {
+            "label": "Description",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "callToActionLinkText": {
+          "config": {
+            "label": "CTA Text",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "callToActionLink": {
+          "config": {
+            "label": "CTA Link",
+            "select": "document",
+            "customtypes": [
+              "page"
+            ]
+          },
+          "type": "Link"
+        }
+      },
+      "items": {}
+    }
+  ]
+}

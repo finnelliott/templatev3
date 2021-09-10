@@ -1,0 +1,185 @@
+{
+  "id": "features",
+  "type": "SharedSlice",
+  "name": "Features",
+  "description": "Features",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Features",
+      "primary": {
+        "pretitle": {
+          "config": {
+            "label": "Pretitle",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "heading": {
+          "config": {
+            "label": "Heading",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "description": {
+          "config": {
+            "label": "Description",
+            "placeholder": ""
+          },
+          "type": "Text"
+        }
+      },
+      "items": {
+        "featureIcon": {
+          "config": {
+            "label": "Feature Icon",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "featureHeading": {
+          "config": {
+            "label": "Feature Heading",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "featureDescription": {
+          "config": {
+            "label": "Feature Description",
+            "placeholder": ""
+          },
+          "type": "Text"
+        }
+      }
+    },
+    {
+      "id": "gridWithOffsetIcons",
+      "name": "Grid with offset icons",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Features",
+      "primary": {
+        "pretitle": {
+          "config": {
+            "label": "Pretitle",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "heading": {
+          "config": {
+            "label": "Heading",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "description": {
+          "config": {
+            "label": "Description",
+            "placeholder": ""
+          },
+          "type": "Text"
+        }
+      },
+      "items": {
+        "featureIcon": {
+          "config": {
+            "label": "Feature Icon",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "featureHeading": {
+          "config": {
+            "label": "Feature Heading",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "featureDescription": {
+          "config": {
+            "label": "Feature Description",
+            "placeholder": ""
+          },
+          "type": "Text"
+        }
+      }
+    },
+    {
+      "id": "alternatingWithTestimonial",
+      "name": "Alternating with testimonial",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Features",
+      "primary": {},
+      "items": {
+        "featureIcon": {
+          "config": {
+            "label": "Feature Icon",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "featureHeading": {
+          "config": {
+            "label": "Feature Heading",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "featureDescription": {
+          "config": {
+            "label": "Feature Description",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "featureCTALink": {
+          "config": {
+            "label": "Feature CTA Link",
+            "select": "document",
+            "customtypes": []
+          },
+          "type": "Link"
+        },
+        "featureCTAText": {
+          "config": {
+            "label": "Feature CTA Text",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "testimonialText": {
+          "config": {
+            "label": "Testimonial Text",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "testimonialAuthor": {
+          "config": {
+            "label": "Testimonial Author",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "testimonialAuthorImage": {
+          "config": {
+            "label": "Testimonial Author Image",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        }
+      }
+    }
+  ]
+}

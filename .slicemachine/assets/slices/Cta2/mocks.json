@@ -1,0 +1,24 @@
+[
+  {
+    "variation": "default-slice",
+    "name": "Default slice",
+    "slice_type": "cta2",
+    "items": [],
+    "primary": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "Drive intuitive solutions",
+          "spans": []
+        }
+      ],
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "Cillum laborum ipsum elit commodo in magna elit ea nostrud mollit ut deserunt in.",
+          "spans": []
+        }
+      ]
+    }
+  }
+]

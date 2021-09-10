@@ -1,0 +1,76 @@
+{
+  "id": "0a2dd996-4ed3-4794-b7b5-0338fb18257f",
+  "uid": "laborum-sunt-sint",
+  "type": "page",
+  "data": {
+    "meta_title": "monetize bleeding-edge partnerships",
+    "meta_description": "grow bleeding-edge content",
+    "social_cards": [
+      {
+        "social_card_image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1579931794097-0ad001e51edb?w=900&h=500&fit=crop"
+        },
+        "social_card_title": "transform visionary networks",
+        "social_card_description": "harness integrated platforms"
+      },
+      {
+        "social_card_image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=900&h=500&fit=crop"
+        },
+        "social_card_title": "deliver virtual experiences",
+        "social_card_description": "utilize vertical mindshare"
+      },
+      {
+        "social_card_image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=900&h=500&fit=crop"
+        },
+        "social_card_title": "redefine value-added markets",
+        "social_card_description": "productize synergistic ROI"
+      },
+      {
+        "social_card_image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1607582278043-57198ac8da43?w=900&h=500&fit=crop"
+        },
+        "social_card_title": "recontextualize value-added ROI",
+        "social_card_description": "innovate killer experiences"
+      },
+      {
+        "social_card_image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1576662712957-9c79ae1280f8?w=900&h=500&fit=crop"
+        },
+        "social_card_title": "utilize e-business content",
+        "social_card_description": "orchestrate out-of-the-box communities"
+      }
+    ]
+  }
+}
