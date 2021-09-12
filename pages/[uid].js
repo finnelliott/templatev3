@@ -16,11 +16,15 @@ const Page = ({ primary_navigation, primary_footer, doc, slices, uid }) => (
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charSet="utf-8" />
 
+
     <meta property="og:url" content={`${info.url}/${uid}`} key="ogurl" />
     <meta property="og:image" content={doc.data.social_cards[0].social_card_image.url} key="ogimage" />
     <meta property="og:site_name" content={info.site_name} key="ogsitename" />
     <meta property="og:title" content={doc.data.meta_title} key="ogtitle" />
     <meta property="og:description" content={doc.data.meta_description} key="ogdesc" />
+
+    <meta name="twitter:card" content="summary_large_image" key="twcard" />
+    <meta name="twitter:creator" content={info.twitter_handle} key="twhandle" />
 
   </Head>
   <PrimaryLayout navigation={primary_navigation} footer={primary_footer} >
