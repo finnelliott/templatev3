@@ -2,9 +2,11 @@ import Prismic from '@prismicio/client'
 import Head from 'next/head'
 import SliceZone from 'next-slicezone'
 import { useGetStaticProps, useGetStaticPaths } from 'next-slicezone/hooks'
+import { queryRepeatableDocuments } from '../utils/queries';
 import PrimaryLayout from '../components/layout/PrimaryLayout'
 import resolver from '../sm-resolver' // import from project root
 import info from '../data/info'
+import { manageLocal } from '../utils/prismicHelpers'
 
 const Page = ({ primary_navigation, primary_footer, doc, slices, uid }) => (
   <>
@@ -33,11 +35,12 @@ const Page = ({ primary_navigation, primary_footer, doc, slices, uid }) => (
 
 export async function getStaticProps({
   params,
+  locale
 }) {
   const client = Prismic.client('https://templatev3.prismic.io/api/v2');
-  const doc = (await client.getByUID('page', params.uid)) || {};
-  const primary_navigation = (await client.getSingle('primary_navigation')) || {};
-  const primary_footer = (await client.getSingle('primary_footer')) || {};
+  const doc = (await client.getByUID('page', params.uid, { lang: locale })) || {};
+  const primary_navigation = (await client.getSingle('primary_navigation', { lang: locale })) || {};
+  const primary_footer = (await client.getSingle('primary_footer', { lang: locale })) || {};
   const slices = doc.data.slices
   const uid = params.uid
 
@@ -47,22 +50,24 @@ export async function getStaticProps({
       primary_footer,
       slices,
       doc,
-      uid
+      uid,
+      locale
     },
   };
 }
 
 
-export const getStaticPaths = useGetStaticPaths({
-  client: Prismic.client('https://templatev3.prismic.io/api/v2'),
-  type: 'page',
-  formatPath: (prismicDocument) => {
-    return {
-      params: {
-        uid: prismicDocument.uid
-      }
-    }
-  }
-})
+export async function getStaticPaths() {
+  const documents = await queryRepeatableDocuments(
+    (doc) => doc.type === 'page'
+  );
+  return {
+    paths: documents.map((doc) => {
+      return { params: { uid: doc.uid }, locale: doc.lang };
+    }),
+    fallback: false,
+  };
+}
 
-export default Page
+
+export default Page;
