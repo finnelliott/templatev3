@@ -16,7 +16,7 @@ import Image from "next/image";
   }
   ```
 */
-export default function PanelWithScreenshot({heading, description, cta, screenshot}) {
+export default function CTAPanelWithScreenshot({heading, description, cta, screenshot}) {
     return (
       <div className="bg-white">
         <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">

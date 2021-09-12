@@ -1,8 +1,6 @@
-/* This example requires Tailwind CSS v2.0+ */
-import { InboxIcon, SparklesIcon } from '@heroicons/react/outline'
 import Image from 'next/image'
 
-export default function AlternatingWithTestimonial({features}) {
+export default function FeaturesAlternatingWithTestimonial({features}) {
   return (
     <div className="relative bg-white pt-16 pb-32 overflow-hidden">
       <div className="relative">

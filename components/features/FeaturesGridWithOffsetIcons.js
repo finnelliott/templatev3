@@ -1,15 +1,4 @@
-/* This example requires Tailwind CSS v2.0+ */
-import {
-    CloudUploadIcon,
-    CogIcon,
-    LockClosedIcon,
-    RefreshIcon,
-    ServerIcon,
-    ShieldCheckIcon,
-  } from '@heroicons/react/outline'
-  
-  
-  export default function GridWithOffsetIcons({pretitle, heading, description, features}) {
+export default function FeaturesGridWithOffsetIcons({pretitle, heading, description, features}) {
     return (
       <div className="relative bg-white py-16 sm:py-24 lg:py-32">
         <div className="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">

@@ -3,17 +3,12 @@
     "page": {}
   },
   "slices": {
-    "TestSlice": {},
     "Hero": {
       "default-slice": {
         "primary": {},
         "items": {}
       }
     },
-    "Features1": {},
-    "Features2": {},
-    "Cta1": {},
-    "Cta2": {},
     "Features": {
       "default-slice": {
         "primary": {},

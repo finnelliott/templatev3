@@ -1,8 +1,7 @@
 import React from 'react'
-import { RichText } from 'prismic-reactjs'
-import SimpleCentered from '../../components/cta/SimpleCentered'
-import SimpleJustified from '../../components/cta/SimpleJustified'
-import PanelWithScreenshot from '../../components/cta/PanelWithScreenshot'
+import CTASimpleCentered from '../../components/cta/CTASimpleCentered'
+import CTASimpleJustified from '../../components/cta/CTASimpleJustified'
+import CTAPanelWithScreenshot from '../../components/cta/CTAPanelWithScreenshot'
 
 const CallToAction = ({ slice }) => {
 
@@ -18,7 +17,7 @@ const CallToAction = ({ slice }) => {
     }
     return (
       <section>
-        <PanelWithScreenshot heading={data.heading} description={data.description} cta={data.cta} screenshot={data.screenshot} />
+        <CTAPanelWithScreenshot heading={data.heading} description={data.description} cta={data.cta} screenshot={data.screenshot} />
       </section>
     )
   } else if (slice.variation === "default-slice") {
@@ -32,7 +31,7 @@ const CallToAction = ({ slice }) => {
     }
     return (
       <section>
-        <SimpleCentered heading={data.heading} description={data.description} cta={data.cta} />
+        <CTASimpleCentered heading={data.heading} description={data.description} cta={data.cta} />
       </section>
     )
   } else if (slice.variation === "simpleJustified") {
@@ -46,7 +45,7 @@ const CallToAction = ({ slice }) => {
     }
     return (
       <section>
-        <SimpleJustified heading={data.heading} description={data.description} cta={data.cta} />
+        <CTASimpleJustified heading={data.heading} description={data.description} cta={data.cta} />
       </section>
     )
   }

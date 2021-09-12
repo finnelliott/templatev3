@@ -1,4 +1,4 @@
 
 module.exports = {
-  stories: ["../slices/**/*.stories.[tj]s","../.slicemachine/assets/slices/**/*.stories.[tj]s"]
+  stories: ["../slices/**/*.stories.[tj]s","../.slicemachine/assets/slices/**/*.stories.[tj]s", "../styles/index.css"]
 }

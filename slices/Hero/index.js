@@ -1,14 +1,4 @@
-/* This example requires Tailwind CSS v2.0+ */
-import { Fragment } from 'react'
-import { Popover, Transition } from '@headlessui/react'
-import { MenuIcon, XIcon } from '@heroicons/react/outline'
-
-const navigation = [
-  { name: 'Product', href: '#' },
-  { name: 'Features', href: '#' },
-  { name: 'Marketplace', href: '#' },
-  { name: 'Company', href: '#' },
-]
+import HeroSimpleCentered from '../../components/hero/HeroSimpleCentered'
 
 export default function Hero({ slice }) {
   const heading = slice.primary.heading
@@ -24,46 +14,7 @@ export default function Hero({ slice }) {
 
   return (
     <section>
-    <div className="relative bg-gray-50 overflow-hidden">
-      <div className="relative pt-6 pb-16 sm:pb-24">
-        <main className="mt-16 mx-auto max-w-7xl px-4 sm:mt-24">
-          <div className="text-center">
-            {heading &&
-            <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-              <span className="block xl:inline">{heading}</span>
-            </h1>
-            }
-            {subheading &&
-            <p className="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-              {subheading}
-            </p>
-            }
-            <div className="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
-              {cta1.link && cta1.text &&
-              <div className="rounded-md shadow">
-                <a
-                  href={cta1.link}
-                  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
-                >
-                  {cta1.text}
-                </a>
-              </div>
-              }
-              {cta2.link && cta2.text &&
-              <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
-                <a
-                  href={cta2.link}
-                  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-gray-50 md:py-4 md:text-lg md:px-10"
-                >
-                  {cta2.text}
-                </a>
-              </div>
-              }
-            </div>
-          </div>
-        </main>
-      </div>
-    </div>
+      <HeroSimpleCentered heading={heading} subheading={subheading} cta1={cta1} cta2={cta2} />
     </section>
   )
 }

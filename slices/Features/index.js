@@ -1,7 +1,7 @@
 import React from 'react'
-import GridWithOffsetIcons from '../../components/features/GridWithOffsetIcons'
-import CenteredGrid from '../../components/features/CenteredGrid'
-import AlternatingWithTestimonial from '../../components/features/AlternatingWithTestimonial'
+import GridWithOffsetIcons from '../../components/features/FeaturesGridWithOffsetIcons'
+import CenteredGrid from '../../components/features/FeaturesCenteredGrid'
+import AlternatingWithTestimonial from '../../components/features/FeaturesAlternatingWithTestimonial'
 
 const Features = ({ slice }) => {
 
